@@ -123,6 +123,14 @@
               "devServerTarget": "portfolio-angular:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/portfolio-angular",
+            "netlifyToken": "iFYgHlA-ciTiZFpLvsbAf-vFLcf3o8dxHRAWmXvHxls",
+            "siteId": "1adfd881-e0c2-4fff-9eaa-0c649500ffd3"
+          }
         }
       }
     }

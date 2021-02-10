@@ -10,6 +10,7 @@ import { ResumeComponent } from './resume/resume.component';
 import { MenuComponent } from './menu/menu.component';
 import { BlogComponent } from './blog/blog.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     ResumeComponent,
     MenuComponent,
     BlogComponent,
-    HomepageComponent
+    HomepageComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
