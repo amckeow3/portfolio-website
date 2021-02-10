@@ -1,0 +1,12 @@
+@Import '../../main-styles.scss';
+
+.resume-box {
+  width: 100%;
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
