@@ -1,1 +1,23 @@
 @import '../../main-styles.scss';
+
+.fa {
+    padding: 6px;
+    font-size: 20px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%; // makes it a circle
+    text-align: center;
+    text-decoration: none;
+    background-position: center;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+  
