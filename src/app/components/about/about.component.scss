@@ -61,6 +61,7 @@ ul {
 li::before {
   color: #c88eff;
   content: "►";
+  //content: "▷";
   border-radius: 1ch;
   padding-inline: 1ch;
   //margin-inline-end: 1ch;
@@ -79,6 +80,7 @@ li {
   width: 0;
   left: -1em;
   font-family: 'Courier New', monospace;
+
 }
 
 h1 {
