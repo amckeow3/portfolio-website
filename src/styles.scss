@@ -1,21 +1,41 @@
-/*$dark-blue: #002447;
-$bright-blue: #ffa46b;
-$red-orange: #ff895e;
-*/
 $dark-purple: #01011d;
 $light-purple: #ba85ff;
+$white: #f2f2f2;
 
+* {
+  box-sizing: border-box;
+}
 
+//email and social media links
+.right-side-info {
+  position: relative;
+}
 
-/*
-$dark-blue: #ffeee7;
-$bright-blue: #73c0F4;
-*/
+.left-side-info {
 
-/*
-$dark-blue: #ffd455;
-$bright-blue: #FF7F50;
-*/
+}
+
+.email {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: $white;
+  transform: rotate(90deg);
+  font-family: 'Courier New', monospace;
+  opacity: .6;
+}
+
+.email:after {
+    background-color: $white;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    left: 0.1em;
+    margin-right: -60%;
+}
 
 
 

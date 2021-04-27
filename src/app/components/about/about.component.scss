@@ -1,8 +1,6 @@
 @import '../../../styles.scss';
 
 .main {
-  height: 500px;
-  width: 100%;
   background-color: $dark-purple;
 }
 
@@ -62,11 +60,9 @@ li::before {
   color: #c88eff;
   content: "►";
   //content: "▷";
-  border-radius: 1ch;
   padding-inline: 1ch;
-  //margin-inline-end: 1ch;
+  margin-inline-end: 2px;
   opacity: 1.4;
-
 }
 
 li {
@@ -76,21 +72,20 @@ li {
   border-width: 20px 20px;
   display: block;
   font-size: 18px;
-  height: 0;
+  //height: 0;
   width: 0;
   left: -1em;
   font-family: 'Courier New', monospace;
-
 }
 
 h1 {
-  color: rgba(255, 255, 255, 0.904);
+  color: $white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 25px;
 }
 
 .about {
-  color: #f2f2f2;
+  color: $white;
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
