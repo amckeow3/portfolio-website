@@ -1,0 +1,87 @@
+@import '../../../styles.scss';
+
+.main {
+  height: 500px;
+  width: 100%;
+  background-color: $dark-purple;
+}
+
+.row {
+  display: flex;
+  border: 1px;
+  justify-content: center
+}
+
+.leftcolumn {
+  display: block;
+  float: left;
+  width: 70%;
+}
+
+.leftlist {
+  float: left;
+  width: 30%;
+}
+
+.rightcolumn {
+  display: flex;
+  float: left;
+  width: 40%;
+  padding-left: 1px;
+}
+
+.rightlist {
+  float: left;
+  width: 50%;
+  padding-left: -100px;
+}
+
+.imgbox {
+  padding-left: -5%;
+}
+
+.tech-examples {
+  color: #f2f2f2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  opacity: .6;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  padding-left: 16px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 20px 20px;
+  display: block;
+  font-size: 18px;
+  height: 0;
+  width: 0;
+  left: -1em;
+}
+
+li::before {
+  color: red;
+  content: "►";
+  display: inline-block;
+  padding-right: 8px;
+
+}
+
+.about {
+  color: #f2f2f2;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  opacity: .6;
+}
+
+
+

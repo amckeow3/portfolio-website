@@ -1,0 +1,48 @@
+@import '../../../styles.scss';
+
+footer {
+  height: 150px;
+  background-color: $dark-purple;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font: 'Allerta';
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 4%;
+    margin-bottom: -.5%;
+  }
+
+  p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    //font-family: "Courier New", monospace;
+    color: $light-purple;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.fa {
+  padding: 6px;
+  font-size: 35px;
+  text-decoration: none;
+  background-position: center;
+  margin: -4px 10px;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-github {
+  color: white;
+}
+
+
