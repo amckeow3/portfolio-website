@@ -21,7 +21,101 @@ main {
   margin-top: 40px;
 }
 
+.first-row {
+  display: flex;
+}
+
 .happle {
   margin-top: 2%;
-  padding-left: 20%;
+  padding-left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .happle-caption {
+    display: block;
+    background: rgb(255,255,255);
+    text-align: center;
+
+    .happle-header {
+      background: rgb(255,255,255);
+      font-size: 2rem;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .happle-skills {
+      background: rgb(255,255,255);
+      margin-top: -2rem;
+      font-size: 1.4rem;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: $light-purple;
+    }
+
+    .happle-btn {
+      margin-top: .5rem;
+      background: rgb(255,255,255);
+      border: solid 3px $light-purple;
+      height: 3.5rem;
+      width: 11rem;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 1.2rem;
+    }
+  }
 }
+
+.a-zdogs {
+  margin-top: 2%;
+  padding-left: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .a-zdogs-caption {
+    display: block;
+    background: rgb(255,255,255);
+    text-align: center;
+
+    .a-zdogs-header {
+      background: rgb(255,255,255);
+      font-size: 2rem;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .a-zdogs-skills {
+      background: rgb(255,255,255);
+      margin-top: -2rem;
+      font-size: 1.4rem;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: $light-purple;
+    }
+
+    .a-zdogs-btn {
+        margin-top: .5rem;
+        background: rgb(255,255,255);
+        border: solid 3px $light-purple;
+        height: 3.5rem;
+        width: 11rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.2rem;
+    }
+  }
+}
+
+a {
+  position: relative
+}
+
+a span {
+  display: none;
+  position: absolute;
+  height: 14rem;
+  bottom: 0;
+  width: 26.9rem;
+  padding: 10px;
+  background: rgb(255,255,255);
+}
+
+a:hover span {
+  display: block;
+}
+
