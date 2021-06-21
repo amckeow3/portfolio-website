@@ -8,12 +8,19 @@ main {
   height: 661px;
 }
 
+.intro-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .row {
   display: flex;
   justify-content: center;
 }
 
 .intro-text {
+ margin-left: 20%;
  display: inline-block;
  width: 60%;
  margin-top: 6%;
@@ -45,8 +52,8 @@ main {
  margin-top: 4%;
  border-radius: 12px;
  background-color: none;
- border: 2px solid $yellow-orange;
- color: $yellow-orange;
+ border: 2px solid $tiffany-blue;
+ color: $tiffany-blue;
  font-size: 20px;
  padding: 12px 20px;
  //font-family: 'Courier New', monospace;
@@ -60,5 +67,15 @@ main {
  cursor: pointer;
  background-color: $light-purple;
  color: $white;
+}
+
+.bitmoji-img {
+  margin-right: 20%;
+  margin-top: 6%;
+  border-radius: 50%;
+}
+
+.img {
+  max-width: 100%;
 }
 
