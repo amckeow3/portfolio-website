@@ -2,7 +2,7 @@
 
 nav {
   width: 100%;
-  background-color: $dark-purple;
+  background-color: $ivory;
   height: 110px;
   padding: 0 100px;
   text-align: right;
@@ -38,7 +38,8 @@ nav ul li a:hover {
 
 .resume-link {
  display: flex;
- border: solid 2px $light-purple;
+ border: solid 2px $tiffany-blue;
+ background: $tiffany-blue;
  width: 95px;
  height: 40px;
  justify-content: center;

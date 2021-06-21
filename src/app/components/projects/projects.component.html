@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <main>
   <div class="projects-section">
     <div class="header">
@@ -12,10 +14,17 @@
             <p class="happle-skills">Angular / Node.js / Express</p>
             <button type="button" class="happle-btn" id="happlebtn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">LEARN MORE</button>
             <div id="id01" class="modal">
+              <div class="modal-content">
               <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
-              <ng-image-slider [images]="happleImages" #nav></ng-image-slider>
+              <ng-image-slider [images]="happleImages"></ng-image-slider>
+                  <div class="modal-content-header">Happle</div>
+                    <div class="link-section">
+                      <a href="https://happle.netlify.app/" class="fa fa-external-link" target="_blank"> VIEW SITE</a>
+                      <a href="https://github.com/amckeow3/happle" class="fa fa-github backend" target="_blank"> GITHUB</a>
+                    </div>
+                  </div>
+              </div>
             </div>
-          </div>
         </span>
       </a>
       <a class="a-zdogs">

@@ -145,8 +145,8 @@ a:hover span {
 /*define the modal-content background*/
 
 .modal-content {
-  display: flex;
-  align-items: center;
+  //display: flex;
+  //align-items: center;
   background-color: #fefefe;
   margin: 5% auto 15% auto;
   border: 1px solid #888;
@@ -155,12 +155,15 @@ a:hover span {
 /*define the close button*/
 
 .close {
-  position: absolute;
+  position: relative;
   right: 35px;
-  top: 80px;
+  top: 20px;
   color: rgb(255, 0, 0);
   font-size: 50px;
   font-weight: bold;
+  width: 10px;
+  height: 10px;
+  background: none;
 }
 /*define the close hover and focus effects*/
 
@@ -179,4 +182,51 @@ justify-content: center;
   clear: both;
   display: table;
 }
+
+.external-site-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: $light-purple;
+}
+
+.modal-content-header {
+  background: transparent;
+  color: black;
+  padding-top: 20px;
+  font-size: 2rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link-section {
+  margin: 30px 0;
+  background: transparent;
+}
+
+.fa {
+  padding: 10px 0;
+  font-size: 20px;
+  height: 40px;
+  width: 170px;
+  text-align: center;
+  text-decoration: none;
+  background-position: center;
+}
+
+.fa-github {
+  background: none;
+  color: black;
+  margin: 0 10px;
+  background: $light-purple;
+  color: white;
+}
+
+.fa-external-link {
+  color: black;
+  background: none;
+  margin-right: 10px;
+  background: $light-purple;
+  color: white;
+}
+
 
