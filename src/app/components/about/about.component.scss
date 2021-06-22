@@ -2,7 +2,7 @@
 
 main {
   background-color: $dark-purple;
-  height: 661px;
+  height: 650px;
 }
 
 .row {
@@ -17,7 +17,7 @@ main {
   width: 70%;
   padding-left: 20%;
   padding-right: 5%;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .leftlist {
@@ -39,7 +39,7 @@ main {
 }
 
 .imgbox {
-  border: 5px solid $light-purple;
+  border: 5px solid white;
   position: absolute;
 }
 
@@ -80,9 +80,9 @@ li {
   font-family: 'Courier New', monospace;
 }
 
-.header {
+#header-txt {
   color: $white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "lato", sans-serif;
   font-size: 55px;
   font-weight: 600;
    opacity: .8;
@@ -95,5 +95,3 @@ li {
   font-weight: 400;
   opacity: .6;
 }
-
-

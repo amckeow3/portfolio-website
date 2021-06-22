@@ -19,7 +19,11 @@
     "@angular/platform-browser": "~11.2.5",
     "@angular/platform-browser-dynamic": "~11.2.5",
     "@angular/router": "~11.2.5",
+    "bootstrap": "^5.0.1",
+    "bootswatch": "^5.0.1",
+    "jquery": "^3.6.0",
     "ng-image-slider": "^2.8.0",
+    "react-bootstrap": "^1.6.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
@@ -42,5 +46,18 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.1.5"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amckeow3/portfolio-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amckeow3/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/amckeow3/portfolio-website#readme"
 }

@@ -1,13 +1,40 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Adrianna <i class="fa fa-code"></i> McKeown</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarColor03">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/']" routerLinkActive="active">home<span class="visually-hidden">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/about']" routerLinkActive="active">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/projects']" routerLinkActive="active">projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['contact']" routerLinkActive="active">contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:38eb60b1-370c-487e-81ac-932b3990aff4" target="_blank">resume</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--
 <nav>
   <ul>
     <li><a [routerLink]="['/']" routerLinkActive="active">home</a></li>
     <li><a [routerLink]="['/about']" routerLinkActive="active">about</a></li>
     <li><a [routerLink]="['/projects']">projects</a></li>
     <li><a [routerLink]="['contact']">contact</a></li>
-    <li><a style="color: #05E0E9; opacity: 1.4; border-radius: 12px;" onMouseOver="this.style.opacity= '2.0';"
-      onMouseOut="this.style.color='#05E0E9'; this.style.background='#FAEDE0'" href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:38eb60b1-370c-487e-81ac-932b3990aff4" target="_blank">resume</a></li>
-
-</ul>
+    <li><a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:38eb60b1-370c-487e-81ac-932b3990aff4" target="_blank">resume</a></li>
+  </ul>
 </nav>
+-->

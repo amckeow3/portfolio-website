@@ -1,11 +1,7 @@
 @import '../../../styles.scss';
 
 main {
-  background-color: $ivory;
-  align-items: center;
-  text-align: center;
-  float: flex;
-  height: 661px;
+  height: 640px;
 }
 
 .intro-section {
@@ -22,7 +18,7 @@ main {
 .intro-text {
  margin-left: 20%;
  display: inline-block;
- width: 60%;
+ max-width: 100%;
  margin-top: 6%;
  align-items: center;
  text-align: left;
@@ -70,6 +66,7 @@ main {
 }
 
 .bitmoji-img {
+  padding-left: 50px;
   margin-right: 20%;
   margin-top: 6%;
   border-radius: 50%;
@@ -77,5 +74,26 @@ main {
 
 .img {
   max-width: 100%;
+}
+
+#title {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: -60px;
+  padding-left: 10px;
+}
+
+#title span {
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
