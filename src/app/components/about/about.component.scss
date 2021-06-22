@@ -3,6 +3,7 @@
 main {
   background-color: $dark-purple;
   height: 650px;
+  margin-top: 400px;
 }
 
 .row {
@@ -80,12 +81,13 @@ li {
   font-family: 'Courier New', monospace;
 }
 
-#header-txt {
+.header-txt {
   color: $white;
   font-family: "lato", sans-serif;
-  font-size: 55px;
-  font-weight: 600;
-   opacity: .8;
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-weight: 300;
+  opacity: .8;
 }
 
 .about {
