@@ -4,15 +4,14 @@ html {
   height: 100%;
   max-width: 100%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  //overflow: hidden;
+  overflow: hidden;
 }
 
 main {
   background-color: $dark-purple;
   align-items: center;
   text-align: center;
-  float: flex;
-  height: 661px;
+  float: block;
 }
 
 #stars {
