@@ -25,13 +25,15 @@ main {
 }
 
  h1 {
-   font-size: 70px;
-   color: $melon;
-   font-family: 'Candara', 'Calibri', 'Segoe', 'Segoe UI', Optima, Arial, sans-serif;
-   margin-bottom: -1%;
-   font-weight: 400;
-   letter-spacing: 1px;
- }
+  color: #FFF;
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-bottom: -1%;
+  letter-spacing: 10px;
+}
 
  .blurb {
   font-size: 40px;
@@ -72,10 +74,12 @@ main {
   border-radius: 50%;
 }
 
-.img {
+img {
   max-width: 100%;
+  border-radius: 50%;
 }
 
+/*
 #title {
   position: absolute;
   top: 40%;
@@ -96,5 +100,6 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+*/
 
 
