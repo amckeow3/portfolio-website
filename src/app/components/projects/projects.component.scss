@@ -12,9 +12,9 @@ main {
   letter-spacing: 10px;
   font-weight: 300;
   opacity: .8;
-  width: 70%;
-  padding-left: 20%;
-  padding-right: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   margin-top: 40px;
 }
 
@@ -22,93 +22,110 @@ main {
   display: block;
 }
 
+.happle-header {
+  padding-right: 300px;
+  color: #FFF;
+  font-size: 2rem;
+  font-family: "lato", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 10px;
+  font-weight: 300;
+}
+
 .happle {
   margin-top: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
-  .happle-caption {
+.happle-caption {
+  display: block;
+  text-align: center;
+
+  .happle-skills {
+    background: rgb(1, 1, 29, 0.6);
+    margin-top: -25px;
+    font-size: 1.4rem;
+    //font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "lato", sans-serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    left: -15px;
+    width: 375px;
+    height: 100px;
     display: block;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .happle-btn {
+    margin-top: .5rem;
     background: rgb(255,255,255);
-    text-align: center;
+    border: solid 3px $light-purple;
+    height: 3.5rem;
+    width: 11rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+  }
 
-    .happle-header {
-      background: rgb(255,255,255);
-      font-size: 2rem;
-      font-family: "lato", sans-serif;
-      font-size: 2rem;
-      letter-spacing: 10px;
-      font-weight: 300;
-    }
-
-    .happle-skills {
-      background: rgb(255,255,255);
-      margin-top: -2rem;
-      font-size: 1.4rem;
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      color: $light-purple;
-    }
-
-    .happle-btn {
-      margin-top: .5rem;
-      background: rgb(255,255,255);
-      border: solid 3px $light-purple;
-      height: 3.5rem;
-      width: 11rem;
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-size: 1.2rem;
-    }
-
-    .happle-btn:hover {
-      background: $light-purple;
-      color: $white;
-    }
+  .happle-btn:hover {
+    background: $light-purple;
+    color: $white;
   }
 }
 
+.a-zdogs-header {
+  padding-left: 130px;
+  color: #FFF;
+  font-size: 2rem;
+  font-family: "lato", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 10px;
+  font-weight: 300;
+}
+
 .a-zdogs {
+  margin-left: 100px;
   margin-top: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
-  .a-zdogs-caption {
-    display: block;
+.a-zdogs-caption {
+  display: block;
+  text-align: center;
+
+  .a-zdogs-skills {
+    background: rgb(1, 1, 29, 0.6);
+    margin-top: -25px;
+    font-size: 1.4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: $light-purple;
+    position: relative;
+    width: 375px;
+    height: 100px;
+    left: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .a-zdogs-btn {
+    margin-top: .5rem;
     background: rgb(255,255,255);
-    text-align: center;
+    border: solid 3px $light-purple;
+    height: 3.5rem;
+    width: 11rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+  }
 
-    .a-zdogs-header {
-      background: rgb(255,255,255);
-      font-size: 2rem;
-      font-family: "lato", sans-serif;
-      font-size: 2rem;
-      letter-spacing: 10px;
-      font-weight: 300;
-    }
-
-    .a-zdogs-skills {
-      background: rgb(255,255,255);
-      margin-top: -2rem;
-      font-size: 1.4rem;
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      color: $light-purple;
-    }
-
-    .a-zdogs-btn {
-        margin-top: .5rem;
-        background: rgb(255,255,255);
-        border: solid 3px $light-purple;
-        height: 3.5rem;
-        width: 11rem;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 1.2rem;
-    }
-
-    .a-zdogs-btn:hover {
-      background: $light-purple;
-      color: $white;
-    }
+  .a-zdogs-btn:hover {
+    background: $light-purple;
+    color: $white;
   }
 }
 
@@ -159,8 +176,8 @@ a:hover span {
 
 .close {
   position: relative;
-  right: 35px;
-  top: 20px;
+  left: 700px;
+  top: 5px;
   color: rgb(255, 0, 0);
   font-size: 50px;
   font-weight: bold;
@@ -237,7 +254,7 @@ justify-content: center;
   height: 100%;
 }
 
-.overlay {
+.happle-overlay {
   position: relative;
   width: 20em;
   height: 20em;
@@ -246,18 +263,42 @@ justify-content: center;
   align-items: center;
 }
 
-.overlay:before {
+.happle-overlay:before {
   content: "";
   display: block;
   position: absolute;
-  padding-left: 55px;
-  padding-right: 55px;
-  top: 20px;
-  margin-bottom: 20px;
+  //padding-left: 55px;
+  //padding-right: 55px;
+  top: 40px;
+  bottom: 0;
   left: -55px;
   right: 0;
+  width: 430px;
+  height: 239px;
+  background-color: rgba(0, 3, 44, 0.3);
+}
+
+.a-zdogs-overlay {
+  position: relative;
   width: 20em;
   height: 20em;
-  background: rgba(250,140,50, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a-zdogs-overlay:before {
+  content: "";
+  display: block;
+  position: absolute;
+  //padding-left: 55px;
+  //padding-right: 55px;
+  top: 40px;
+  bottom: 0;
+  left: -55px;
+  right: 0;
+  width: 430px;
+  height: 239px;
+  background-color: rgba(0, 3, 44, 0.3);
 }
 
