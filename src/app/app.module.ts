@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { AppRoutingModule } from './app-routing.module';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -26,7 +27,8 @@ import { ContactComponent } from './components/contact/contact.component';
     BrowserModule,
     AppRoutingModule,
     NgImageSliderModule,
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

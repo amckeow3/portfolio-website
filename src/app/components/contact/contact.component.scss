@@ -5,6 +5,12 @@ main {
   height: 700px;
 }
 
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
   color: #FFF;
   font-family: "lato", sans-serif;
@@ -21,4 +27,22 @@ main {
 
 .header span {
   color: $tiffany-blue;
+}
+
+.contact-btn {
+  color: black;
+  font-family: "lato", sans-serif;
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-weight: 300;
+  opacity: .8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background: $tiffany-blue;
+  border: solid 3px $tiffany-blue;
+  border-radius: 12px;
+  width: 350px;
+  height: 50px;
 }
