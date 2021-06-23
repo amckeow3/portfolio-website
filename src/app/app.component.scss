@@ -102,49 +102,25 @@ main {
 
 .fa-github {
   color: white;
+  margin-bottom: 15px;
+}
+
+.fa-envelope {
+  color: white;
+  margin-bottom: 15px;
 }
 
 .fa-linkedin {
   color: white;
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .fa-facebook {
   color: white;
-  margin-top: 30px;
 }
 
 .components {
   display: grid;
 }
 
-
-.vertical {
-  display: flex;
-  align-items: center;
-  position: fixed;
-  //padding: 10px;
-  right: 60px;
-  color: white;
-  //float: right;
-  top: 250px;
-  -webkit-transform:
-    rotateZ(90deg) rotateX(180deg) rotateY(-180deg)
-    scale(-1,-1) 
-    translate3d(100%,100%,0);
-  -webkit-transform-origin: 100% 100%;
-}
-
-.vertical a {
-  display: block;
-  text-align: center;
-  //padding: 16px;
-  transition: all 0.3s ease;
-  color: white;
-  font-family: "lato", sans-serif;
-  font-weight: 100;
-  font-size: 15px;
-  letter-spacing: 5px;
-  text-decoration: none;
-}
 
