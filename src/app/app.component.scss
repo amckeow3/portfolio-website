@@ -75,6 +75,7 @@ main {
 }
 
 .icon-bar {
+  background: none;
   position: fixed;
   top: 50%;
   left: 30px;
@@ -100,27 +101,6 @@ main {
   text-decoration: none;
 }
 
-.fa-github {
-  color: white;
+.fa-github, .fa-envelope, .fa-linkedin {
   margin-bottom: 15px;
 }
-
-.fa-envelope {
-  color: white;
-  margin-bottom: 15px;
-}
-
-.fa-linkedin {
-  color: white;
-  margin-bottom: 30px;
-}
-
-.fa-facebook {
-  color: white;
-}
-
-.components {
-  display: grid;
-}
-
-
