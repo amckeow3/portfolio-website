@@ -43,7 +43,7 @@ main {
 
 .imgbox {
   border: 5px solid white;
-  position: absolute;
+  background-color: $dark-purple;
 }
 
 .tech-examples {
@@ -83,12 +83,18 @@ li {
 }
 
 .header-txt {
+  background: none;
   color: $white;
   font-family: "lato", sans-serif;
   font-size: 50px;
   letter-spacing: 10px;
   font-weight: 300;
   opacity: .8;
+}
+
+.header-txt span {
+  color: $tiffany-blue;
+  padding-right: 3px;
 }
 
 .about {

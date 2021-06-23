@@ -2,137 +2,23 @@
 
 main {
   background-color: $dark-purple;
-  height: 661px;
+  height: 700px;
 }
 
-p {
-  letter-spacing: 1.5px;
-  font-size: 20px;
-}
-
-.contact {
-  display: grid;
-}
-
-.email {
-  margin-top: 6%;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  margin-left: 40%;
-}
-
-.phone {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  margin-left: 40%;
-}
-
-.info {
-  left: 10px;
-  display: inline-block;
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-left: 10px;
-  line-height: 7px;
-}
-
-
-.fa {
-  padding: 6px;
-  text-decoration: none;
-  background-position: center;
-  margin: -4px 10px;
-}
-
-.fa-envelope-open-o {
+.header {
+  color: #FFF;
+  font-family: "lato", sans-serif;
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-weight: 300;
+  opacity: .8;
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: $light-purple;
-  padding: 6px;
-  text-decoration: none;
-  background-position: center;
-  margin: -4px 10px;
-  width: 53px;
-  font-size: 45px;
+  margin-top: 20px;
+  background: none;
 }
 
-.fa-phone {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: $light-purple;
-  padding: 6px;
-  text-decoration: none;
-  background-position: center;
-  margin: -4px 10px;
-  width: 53px;
-  font-size: 45px;
-}
-
-.fa-linkedin {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background:#3d3d4d;
-  color: white;
-  margin-right: 12px;
-  font-size: 25px;
-  height: 46px;
-  width: 46px;
-  border-radius: 50%; // makes it a circle
-  text-align: center;
-  text-decoration: none;
-  background-position: center;
-}
-
-.fa-linkedin:hover {
-  background: $light-purple;
-}
-
-.fa-github {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background:#3d3d4d;
-  color: white;
-  font-size: 25px;
-  height: 46px;
-  width: 46px;
-  border-radius: 50%; // makes it a circle
-  text-align: center;
-  text-decoration: none;
-  background-position: center;
-}
-
-.fa-github:hover {
-  background: $light-purple;
-}
-
-.fa-facebook {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background:#3d3d4d;
-  color: white;
-  margin-left: 12px;
-  font-size: 25px;
-  height: 46px;
-  width: 46px;
-  border-radius: 50%; // makes it a circle
-  text-align: center;
-  text-decoration: none;
-  background-position: center;
-}
-
-.fa-facebook:hover {
-  background: $light-purple;
-}
-
-.social-media {
-  margin-top: 1%;
-  display: flex;
-  margin-left: 42%;
+.header span {
+  color: $tiffany-blue;
 }

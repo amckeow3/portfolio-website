@@ -16,6 +16,11 @@ main {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  background: none;
+}
+
+.header-txt span {
+  color: $tiffany-blue;
 }
 
 .first-row {
@@ -60,7 +65,6 @@ main {
   }
 
   .happle-btn {
-    //top: -30px;
     background: none;
     left: -15px;
     color: $tiffany-blue;
@@ -240,7 +244,7 @@ justify-content: center;
   background: none;
   color: black;
   margin: 0 10px;
-  background: $light-purple;
+  background: $tiffany-blue;
   color: white;
 }
 
@@ -248,7 +252,7 @@ justify-content: center;
   color: black;
   background: none;
   margin-right: 10px;
-  background: $light-purple;
+  background: $tiffany-blue;
   color: white;
 }
 
