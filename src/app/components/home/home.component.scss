@@ -23,27 +23,25 @@ main {
   font-weight: 100;
   font-size: 50px;
   letter-spacing: 10px;
-  margin-bottom: -1%;
-  letter-spacing: 10px;
+  margin-bottom: 35px;
 }
 
-.more-button {
-    position: relative;
-    margin-top: 4%;
+.resume-btn {
     border-radius: 12px;
-    background-color: none;
+    background-color: $tiffany-blue;
     border: 2px solid $tiffany-blue;
-    color: $tiffany-blue;
+    color: black;
     font-size: 20px;
     padding: 12px 20px;
-    //font-family: 'Courier New', monospace;
-    font-family: Consolas, monaco, monospace;
+    font-family: "lato", sans-serif;
+    font-weight: 100;
+    letter-spacing: 10px;
     text-align: center;
-    font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 10px;
+    text-decoration: none;
    }
 
-.more-button:hover {
+.resume-btn:hover {
  cursor: pointer;
  background-color: $tiffany-blue;
  color: $white;
