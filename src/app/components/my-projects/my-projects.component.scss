@@ -44,8 +44,10 @@ h2 {
 }
 
 .happle-blurb {
+  padding-left: 10px;
   display: flex;
   flex-direction: column;
+  width: 30%;
 }
 
 .happle-description {
@@ -59,9 +61,10 @@ h2 {
 }
 
 .happle-btn {
+  margin-top: 5px;
   background: $tiffany-blue;
   color: black;
-  width: 300px;
+  width: 250px;
   height: 50px;
   border: solid 3px $tiffany-blue;
   border-radius: 12px;
@@ -188,6 +191,14 @@ a:hover span {
 }
 
 @media only screen and (max-width: 600px) {
+  .happle {
+    flex-direction: column;
+  }
+
+  .happle-blurb {
+    width: 70%;
+  }
+  
   .link-section {
     display: block;
   }
@@ -198,5 +209,9 @@ a:hover span {
 
   .fa-github {
     margin: 4px 0;
+  }
+
+  img {
+    width: 95%;
   }
 }
