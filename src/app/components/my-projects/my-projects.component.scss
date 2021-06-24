@@ -22,3 +22,181 @@ h1 {
 h1 span {
   color: $tiffany-blue;
 }
+
+h2 {
+  color: #FFF;
+  font-size: 25px;
+  font-family: "lato", sans-serif;
+  letter-spacing: 10px;
+  font-weight: 300;
+}
+
+.projects-section {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+.happle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.happle-blurb {
+  display: flex;
+  flex-direction: column;
+}
+
+.happle-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(1, 1, 29, 0.6);
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.happle-btn {
+  background: $tiffany-blue;
+  color: black;
+  width: 300px;
+  height: 50px;
+  border: solid 3px $tiffany-blue;
+  border-radius: 12px;
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+.happle-btn:hover {
+  color: white;
+}
+
+a {
+  position: relative
+}
+
+a span {
+  display: none;
+  position: absolute;
+  height: 14rem;
+  bottom: 0;
+  width: 26.9rem;
+  padding: 10px;
+  background: rgb(255,255,255);
+}
+
+a:hover span {
+  display: block;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: rgb(255, 0, 0);
+  font-size: 50px;
+  font-weight: bold;
+  height: 60px;
+  width: 60px;
+  background: none;
+}
+
+.close:hover,
+.close:focus {
+  cursor: pointer;
+}
+
+.clearfix {
+  display: flex;
+  justify-content: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.modal-content-header {
+  background: transparent;
+  color: black;
+  font-size: 30px;
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+}
+
+.link-section {
+  display: flex;
+  margin: 30px 0;
+  background: transparent;
+}
+
+.fa {
+  padding: 10px 0;
+  font-size: 20px;
+  height: 40px;
+  width: 170px;
+  text-align: center;
+  text-decoration: none;
+  background-position: center;
+}
+
+.fa-github {
+  color: white;
+  margin: 0 10px;
+  background: $tiffany-blue;
+}
+
+.fa-external-link {
+  color: white;
+  margin-right: 10px;
+  background: $tiffany-blue;
+}
+
+.img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.image-slider {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .link-section {
+    display: block;
+  }
+
+  .fa-external-link {
+    margin: 0;
+  }
+
+  .fa-github {
+    margin: 4px 0;
+  }
+}

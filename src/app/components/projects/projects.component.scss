@@ -3,141 +3,77 @@
 main {
   background-color: $dark-purple;
   height: 700px;
-  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.header-txt {
-  color: #FFF;
+h1 {
+  background: none;
+  color: $white;
   font-family: "lato", sans-serif;
   font-size: 50px;
   letter-spacing: 10px;
   font-weight: 300;
   opacity: .8;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  background: none;
 }
 
-.header-txt span {
+h1 span {
   color: $tiffany-blue;
 }
 
-.first-row {
-  display: block;
-}
-
-.happle-header {
-  padding-right: 300px;
+h2 {
   color: #FFF;
-  font-size: 2rem;
+  font-size: 25px;
   font-family: "lato", sans-serif;
-  font-size: 2rem;
   letter-spacing: 10px;
   font-weight: 300;
+}
+
+.projects-section {
+  display: flex;
+  justify-content: center;
+  width: 70%;
 }
 
 .happle {
-  margin-top: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.happle-caption {
-  display: block;
-  text-align: left;
-
-  .happle-skills {
-    background: rgb(1, 1, 29, 0.6);
-    top: -25px;
-    font-size: 1.4rem;
-    //font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-family: "lato", sans-serif;
-    font-weight: 100;
-    color: rgba(255, 255, 255, 0.5);
-    position: relative;
-    width: 375px;
-    height: 100px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .happle-btn {
-    background: $tiffany-blue;
-    left: -15px;
-    color: black;
-    border: solid 3px $tiffany-blue;
-    border-radius: 12px;
-    font-family: "lato", sans-serif;
-    font-weight: 100;
-    font-size: 20px;
-    letter-spacing: 10px;
-    width: 350px;
-  height: 50px;
-  }
-
-  .happle-btn:hover {
-    color: white;
-  }
+.happle-blurb {
+  display: flex;
+  flex-direction: column;
 }
 
-.a-zdogs-header {
-  padding-left: 130px;
-  color: #FFF;
-  font-size: 2rem;
+.happle-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(1, 1, 29, 0.6);
   font-family: "lato", sans-serif;
-  font-size: 2rem;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.happle-btn {
+  background: $tiffany-blue;
+  color: black;
+  width: 300px;
+  height: 50px;
+  border: solid 3px $tiffany-blue;
+  border-radius: 12px;
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
   letter-spacing: 10px;
-  font-weight: 300;
 }
 
-.a-zdogs {
-  margin-left: 100px;
-  margin-top: 2%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.happle-btn:hover {
+  color: white;
 }
-
-.a-zdogs-caption {
-  display: block;
-  text-align: right;
-
-  .a-zdogs-skills {
-    background: rgb(1, 1, 29, 0.6);
-    margin-top: -25px;
-    font-size: 1.4rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: $light-purple;
-    position: relative;
-    width: 375px;
-    height: 100px;
-    left: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .a-zdogs-btn {
-    margin-top: .5rem;
-    color: $tiffany-blue;
-    border: solid 3px $tiffany-blue;
-    border-radius: 12px;
-    height: 3.5rem;
-    width: 11rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.2rem;
-  }
-
-  .a-zdogs-btn:hover {
-    background: $light-purple;
-    color: $white;
-  }
-}
-
 
 a {
   position: relative
@@ -170,22 +106,19 @@ a:hover span {
   background-color: rgba(0, 0, 0, 0.4);
   padding-top: 60px;
 }
-/*define the modal-content background*/
 
 .modal-content {
-  //display: flex;
-  //align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #fefefe;
   margin: 5% auto 15% auto;
   border: 1px solid #888;
   width: 80%;
 }
-/*define the close button*/
 
 .close {
-  position: relative;
-  left: 400px;
-  top: 5px;
+  position: static;
   color: rgb(255, 0, 0);
   font-size: 50px;
   font-weight: bold;
@@ -193,7 +126,6 @@ a:hover span {
   height: 10px;
   background: none;
 }
-/*define the close hover and focus effects*/
 
 .close:hover,
 .close:focus {
@@ -201,8 +133,8 @@ a:hover span {
 }
 
 .clearfix {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .clearfix::after {
@@ -211,22 +143,16 @@ justify-content: center;
   display: table;
 }
 
-.external-site-btn {
-  width: 40px;
-  height: 40px;
-  border: none;
-  background: $light-purple;
-}
-
 .modal-content-header {
   background: transparent;
   color: black;
-  padding-top: 20px;
-  font-size: 2rem;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  font-family: "lato", sans-serif;
+  font-weight: 100;
 }
 
 .link-section {
+  display: flex;
   margin: 30px 0;
   background: transparent;
 }
@@ -242,19 +168,15 @@ justify-content: center;
 }
 
 .fa-github {
-  background: none;
-  color: black;
+  color: white;
   margin: 0 10px;
   background: $tiffany-blue;
-  color: white;
 }
 
 .fa-external-link {
-  color: black;
-  background: none;
+  color: white;
   margin-right: 10px;
   background: $tiffany-blue;
-  color: white;
 }
 
 .img {
