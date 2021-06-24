@@ -4,7 +4,7 @@ main {
   display: flex;
   background-color: $dark-purple;
   height: 700px;
-  margin-top: 100px;
+  margin-top: 150px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -57,85 +57,3 @@ img {
     height: 30%;
   }
 }
-
-/*
-.left-column {
-  width: 70%;
-  float: right;
-  width: 15%;
-  margin-left: 20px;
-}
-
-.right-column {
-  text-align: left;
-  width: 70%;
-  padding-left: 5px;
-  //padding-right: 20%;
-}
-*/
-/*
-.row {
-  display: flex;
-  border: 1px;
-  justify-content: center;
-}
-
-.leftcolumn {
-  margin-top: 40px;
-  float: left;
-  width: 40%;
-  padding-left: 25%;
-  //padding-right: 20px;
-  padding-top: 1%;
-}
-
-.leftlist {
-  float: left;
-  width: 30%;
-}
-
-.rightcolumn {
-  display: block;
-  margin-top: 40px;
-  float: left;
-  width: 60%;
-  padding-right: 25%;
-}
-
-.rightlist {
-  float: left;
-  width: 60%;
-}
-
-.header-txt {
-  background: none;
-  color: $white;
-  font-family: "lato", sans-serif;
-  font-size: 50px;
-  letter-spacing: 10px;
-  font-weight: 300;
-  opacity: .8;
-}
-
-.header-txt span {
-  color: $tiffany-blue;
-  padding-right: 3px;
-}
-
-.about {
-  color: $white;
-  font-size: 20px;
-  font-family: "lato", sans-serif;
-  font-weight: 100;
-  opacity: .6;
-}
-
-img {
-  max-width: 200%;
-}
-
-.image {
-  height: 100px;
-}
-*/
-

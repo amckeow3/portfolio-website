@@ -2,17 +2,14 @@
 
 main {
   background-color: $dark-purple;
-  height: 700px;
-  max-width: 100%;
-}
-
-.contact-section {
+  height: 600px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.header {
+h1 {
   color: #FFF;
   font-family: "lato", sans-serif;
   font-size: 50px;
@@ -26,8 +23,14 @@ main {
   background: none;
 }
 
-.header span {
+h1 span {
   color: $tiffany-blue;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-btn {
