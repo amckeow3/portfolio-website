@@ -47,6 +47,17 @@ img {
   opacity: .6;
 }
 
+@media only screen and (max-width: 600px) {
+  .about-section {
+    display: block;
+  }
+
+  .image {
+    width: 30%;
+    height: 30%;
+  }
+}
+
 /*
 .left-column {
   width: 70%;
