@@ -3,6 +3,7 @@
 main {
   background-color: $dark-purple;
   height: 700px;
+  max-width: 100%;
 }
 
 .header-txt {
@@ -137,7 +138,7 @@ main {
   }
 }
 
-/*
+
 a {
   position: relative
 }
@@ -155,7 +156,6 @@ a span {
 a:hover span {
   display: block;
 }
-*/
 
 .modal {
   display: none;
@@ -262,6 +262,7 @@ justify-content: center;
   height: 100%;
 }
 
+/*
 .happle-overlay {
   position: relative;
   width: 20em;
@@ -279,13 +280,15 @@ justify-content: center;
   //padding-right: 55px;
   top: 40px;
   bottom: 0;
-  left: -55px;
-  right: 0;
+  //left: -55px;
+  //right: 0;
   width: 430px;
   height: 239px;
   background-color: rgba(0, 3, 44, 0.3);
 }
+*/
 
+/*
 .a-zdogs-overlay {
   position: relative;
   width: 20em;
@@ -309,4 +312,4 @@ justify-content: center;
   height: 239px;
   background-color: rgba(0, 3, 44, 0.3);
 }
-
+*/
