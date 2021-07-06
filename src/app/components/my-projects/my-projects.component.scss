@@ -31,6 +31,13 @@ h2 {
   font-weight: 300;
 }
 
+.featured-project {
+  color: $tiffany-blue;
+  font-size: 15px;
+  font-family: "lato", sans-serif;
+  letter-spacing: 2px;
+}
+
 .projects-section {
   display: flex;
   justify-content: center;
@@ -198,7 +205,7 @@ a:hover span {
   .happle-blurb {
     width: 70%;
   }
-  
+
   .link-section {
     display: block;
   }

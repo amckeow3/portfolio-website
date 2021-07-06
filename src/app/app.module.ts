@@ -10,7 +10,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
-import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MyProjectsComponent } from './components/my-projects/my-projects.component';
 
@@ -21,7 +20,6 @@ import { MyProjectsComponent } from './components/my-projects/my-projects.compon
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    ProjectsComponent,
     ContactComponent,
     MyProjectsComponent
   ],
