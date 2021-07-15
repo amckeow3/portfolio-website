@@ -64,3 +64,9 @@ h1 span {
   font-weight: 100;
   opacity: .6;
 }
+
+@media only screen and (max-width: 600px) {
+  .contact-me-text {
+    max-width: 90%;
+  }
+}
