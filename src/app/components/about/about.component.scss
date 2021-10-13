@@ -25,19 +25,20 @@ h1 span {
 }
 
 .about-section {
-  display: flex;
+  display: block;
   justify-content: center;
   width: 70%;
 }
 
 img {
-  max-width: 100%;
+  max-width: 30%;
 }
 
 .image {
-  width: 25%;
-  height: 55%;
+  width: 11%;
+  height: 32%;
 }
+
 
 .about-text {
   color: $white;
