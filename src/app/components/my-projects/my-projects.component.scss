@@ -1,12 +1,14 @@
 @import '../../../styles.scss';
+@import 'bootswatch/dist/slate/bootstrap.min.css';
 
 main {
   background-color: $dark-purple;
-  height: 700px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
 h1 {
@@ -31,6 +33,50 @@ h2 {
   font-weight: 300;
 }
 
+.badge {
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+.other-projects {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-projects-header {
+  margin-top: 80px;
+  color: #FFF;
+  font-size: 30px;
+  font-family: "lato", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.communal-app-proj {
+  background-color: $tiffany-blue;
+  width: 300px;
+  //border: 10px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.other-proj-text {
+  font-family: "lato", sans-serif;
+  background-color: $tiffany-blue;
+}
+
+.other-proj-name {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: $tiffany-blue;
+  font-weight: 200;
+}
+
+.fa {
+  background-color: $tiffany-blue;
+}
+
 .featured-project {
   color: $tiffany-blue;
   font-size: 15px;
@@ -45,6 +91,7 @@ h2 {
 }
 
 .happle {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,21 +115,20 @@ h2 {
 }
 
 .happle-btn {
-  margin-top: 5px;
-  background: $tiffany-blue;
-  color: black;
+  margin-top: 30px;
+  color: $tiffany-blue;
   width: 250px;
-  height: 50px;
+  height: 40px;
   border: solid 3px $tiffany-blue;
   border-radius: 12px;
   font-family: "lato", sans-serif;
-  font-weight: 100;
-  font-size: 20px;
+  font-weight: 10px;
   letter-spacing: 10px;
 }
 
 .happle-btn:hover {
   color: white;
+  border: solid 3px white;
 }
 
 a {
