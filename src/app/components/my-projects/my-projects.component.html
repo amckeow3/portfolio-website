@@ -39,18 +39,7 @@
 
   <div class="other-projects">
     <div class="other-projects-header">Other Noteworthy Projects</div>
-    <button class="communal-app-proj" id="ssdibtn" onclick="document.getElementById('id02').style.display='block'">
-      <div id="id02" class="modal">
-        <div class="modal-content">
-          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
-          <ng-image-slider class="image-slider" [images]="ssdiImages" #nav></ng-image-slider>
-            <div class="modal-content-header">Happle</div>
-              <div class="link-section">
-                <a href="https://happle.netlify.app/" class="fa fa-external-link" target="_blank"> VIEW SITE</a>
-                <a href="https://github.com/amckeow3/happle" class="fa fa-github" target="_blank"> GITHUB</a>
-              </div>
-            </div>
-        </div>
+    <button class="communal-app-proj" id="happlebtn" onclick="document.getElementById('id02').style.display='block'">
       <div class="other-proj-text">
         <i class="fa fa-folder-o" aria-hidden="true"></i>
         <div class="other-proj-name">Software Sytem Design and Implementation Group Project</div>
@@ -67,5 +56,17 @@
 
       </div>
     </button>
+      <div id="id02" class="modal">
+        <div class="modal-content">
+          <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
+          <ng-image-slider class="image-slider" [images]="ssdiImages" #nav></ng-image-slider>
+            <div class="modal-content-header">Software Sytem Design and Implementation Group Project</div>
+              <div class="link-section">
+                <a href="https://github.com/mahithagarikipati/Communal-Appliance-And-Sharing/tree/master/CommunalApplianceSharing" class="fa fa-github" target="_blank"> GITHUB</a>
+              </div>
+            </div>
+        </div>
+      
+   
   </div>
 </main>
