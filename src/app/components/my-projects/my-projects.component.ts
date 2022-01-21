@@ -20,9 +20,9 @@ export class MyProjectsComponent implements OnInit {
     title: 'welcome page',
     order: 1
   }, {
-    image: 'assets/images/happle/homepage.png', // Support base64 image
-    thumbImage: 'assets/images/happle/homepage.png', // Support base64 image
-    title: 'homepage', //Optional: You can use this key if want to show image with title
+    image: 'assets/images/happle/homepage.png', 
+    thumbImage: 'assets/images/happle/homepage.png', 
+    title: 'homepage', 
     order: 2
   }, {
     image: 'assets/images/happle/details.png',
@@ -54,40 +54,17 @@ export class MyProjectsComponent implements OnInit {
     thumbImage: 'assets/images/happle/new-card.png',
     title: 'add new credit/debit card',
     order: 8
-  },
-];
+  }];
 
-ssdiImages: Array<object> = [{
-  image: 'assets/images/ssdi-project/acceptance-criteria-1.PNG',
-  thumbImage: 'assets/images/ssdi-project/acceptance-criteria-1.PNG',
-  title: 'Sprint 1 acceptance criteria',
-  order: 1
-}, {
-  image: 'assets/images/ssdi-project/sprint-1.PNG', 
-  thumbImage: 'assets/images/ssdi-project/sprint-1.PNG', 
-  title: 'Sprint 1 task', 
-  order: 2
-}, {
-  image: 'assets/images/ssdi-project/acceptance-criteria-2.PNG',
-  thumbImage: 'assets/images/ssdi-project/acceptance-criteria-2.PNG',
-  title: 'Sprint 2 acceptance criteria',
-  order: 3
-}, {
-  image: 'assets/images/ssdi-project/sprint-2.PNG',
-  thumbImage: 'assets/images/ssdi-project/sprint-2.PNG',
-  title: 'Sprint 2 task',
-  order: 4
-}, {
-  image: 'assets/images/ssdi-project/acceptance-criteria-3.PNG',
-  thumbImage: 'assets/images/ssdi-project/acceptance-criteria-3.PNG',
-  title: 'Sprint 3 acceptance criteria',
-  order: 5
-}, {
-  image: 'assets/images/ssdi-project/sprint-3.PNG',
-  thumbImage: 'assets/images/ssdi-project/sprint-3.PNG',
-  title: 'Sprint 3 task',
-  order: 6
-},
-];
-
+  discountCalcImages: Array<object> = [{  
+    image: 'assets/images/discount-calculator/discount-initial.png',
+    thumbImage: 'assets/images/discount-calculator/discount-initial.png',
+    title: 'Initial Screen',
+    order: 1
+  }, {
+    image: 'assets/images/discount-calculator/discount-calculation.png', 
+    thumbImage: 'assets/images/discount-calculator/discount-calculation.png',
+    title: 'Discount Calculation', 
+    order: 2
+  }];
 }

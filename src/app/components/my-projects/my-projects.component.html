@@ -1,7 +1,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <main>
-  <h1><span>02.</span>MY PROJECTS</h1>
+  <h1><span>02.</span>SOME THINGS I'VE BUILT</h1>
+  <!---
   <div class="projects-section">
     <div class="happle">
       <img class="image" src="../../../assets/images/happle/happle_screenshot.png" width="430" height="225">
@@ -36,38 +37,63 @@
       </div>
     </div>
   </div>
+-->
 
   <div class="other-projects">
-    <div class="other-projects-header">Other Noteworthy Projects</div>
+    <!--<div class="other-projects-header">Other Noteworthy Projects</div>-->
+
+    <!--Ticket Discount Calculator Project-->
+    <button class="communal-app-proj" id="happlebtn" onclick="document.getElementById('id01').style.display='block'">
+      <div class="other-proj-text">
+        <i class="fa fa-folder-o" aria-hidden="true"></i>
+        <div class="other-proj-name">Discount Calculator Android App</div>
+        <table>
+          <tr style="background-color: #66d9e4;">
+            <div class="badge bg-primary">Java</div>
+            <div class="badge bg-primary">Android Studio</div>
+          </tr>
+        </table>
+      </div>
+    </button>
+    <div id="id01" class="modal">
+      <div class="modal-content">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+        <ng-image-slider class="image-slider" [images]="discountCalcImages" #nav></ng-image-slider>
+        <div class="modal-content-header">Discount Calculator Android App</div>
+          <div class="link-section">
+            <a href="https://github.com/amckeow3/ticket-discount-calculator" class="fa fa-github" target="_blank"> GITHUB</a>
+          </div>
+      </div>
+    </div>
+
+    <!--Happle Project-->
     <button class="communal-app-proj" id="happlebtn" onclick="document.getElementById('id02').style.display='block'">
       <div class="other-proj-text">
         <i class="fa fa-folder-o" aria-hidden="true"></i>
-        <div class="other-proj-name">Software Sytem Design and Implementation Group Project</div>
-        
+        <div class="other-proj-name">Happle Web App</div>
         <table>
-            <tr style="background-color: #66d9e4;">
-              <div class="badge bg-primary">Java</div>
-              <div class="badge bg-primary">Angular</div>
-              <div class="badge bg-primary">MySQL</div>
-              <div class="badge bg-primary">HTML/CSS</div>
-              <div class="badge bg-primary">JavaScript</div>
-              <div class="badge bg-primary">JUnit</div>
-            </tr>
-          </table>
-
+          <tr style="background-color: #66d9e4;">
+            <div class="badge bg-primary">Node.js</div>
+            <div class="badge bg-primary">Express</div>
+            <div class="badge bg-primary">Angular</div>
+            <div class="badge bg-primary">JavaScript</div>
+            <div class="badge bg-primary">MongoDB</div>
+            <div class="badge bg-primary">Azure App Service</div>
+            <div class="badge bg-primary">Netlify</div>
+          </tr>
+        </table>
       </div>
     </button>
-      <div id="id02" class="modal">
-        <div class="modal-content">
-          <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
-          <ng-image-slider class="image-slider" [images]="ssdiImages" #nav></ng-image-slider>
-            <div class="modal-content-header">Software Sytem Design and Implementation Group Project</div>
-              <div class="link-section">
-                <a href="https://github.com/mahithagarikipati/Communal-Appliance-And-Sharing/tree/master/CommunalApplianceSharing" class="fa fa-github" target="_blank"> GITHUB</a>
-              </div>
-            </div>
-        </div>
-      
-   
+    <div id="id02" class="modal">
+      <div class="modal-content">
+        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
+        <ng-image-slider class="image-slider" [images]="happleImages" #nav></ng-image-slider>
+        <div class="modal-content-header">Happle Web App</div>
+          <div class="link-section">
+            <a href="https://happle.netlify.app/" class="fa fa-external-link" target="_blank"> VIEW SITE</a>
+            <a href="https://github.com/amckeow3/happle" class="fa fa-github" target="_blank"> GITHUB</a>
+          </div>
+      </div>
+    </div>   
   </div>
 </main>
